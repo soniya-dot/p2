@@ -1,0 +1,111 @@
+body{
+background-color: pink;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+    .contact-form{
+      width:65%;
+      max-width: 400px;
+      background:;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-0%, -60%);
+      padding: 30px 40px;
+      box-sizing: border-box;
+      text-align:left;
+      font-family: "san-sarif";
+       }
+    .contact-form h1{
+      margin-top:30px;
+    }
+    .txtb{
+      border:1px solid #B7850D;
+      margin: 15px 0;
+      padding: 12px 18px;
+      ;
+       }
+    .txtb label{
+      display: block;
+      text-align:left;
+      color:#B7850D;
+    }
+    
+    .txtb input, .txtb textarea{
+     border: none;
+      width: 100%;
+      background: none;
+      font-size:15px;
+      margin-top: 10px;
+      }
+    
+    .button {
+  border: none;
+  color: #B7850D;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button4 {
+  background-color: #B7850D;
+  width:100%;
+  color: white;
+ 
+}
+
+.button4:hover {background-color: #42929D;
+      color:black ;}
+      
+    
+    h5{
+       color:#B7850D;
+           font-size: 40px;
+    }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #3E3232;
+      overflow:scroll;
+
+}
+    .contact-form{
+      width:65%;
+      max-width: 200px;
+      transform: translate(-90%, -60%);
+        
+
+}
+}
+ .main-nav {
+        float: right;
+        list-style: none;
+        margin-top: 20px;
+        padding-right: 30px;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .main-nav li {
+        display: inline-block;
+        margin-left: 40px;
+        color: #000000;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: 8px 0;
+        color: #F4F4E1;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 90%;
+        
+        transition: border-bottom 0.2s;
+    }
+
